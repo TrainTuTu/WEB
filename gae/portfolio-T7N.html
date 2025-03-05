@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio cá nhân của Tô Anh Tuấn">
+    <title>Portfolio - T7N</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio - T7N</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Giới thiệu</a></li>
+                <li><a href="#poem">Một đoạn thơ</a></li>
+                <li><a href="#favorites">Bảng điểm</a></li>
+                <li><a href="#chess">Bàn cờ vua</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro" class="intro">
+            <h2>Giới thiệu</h2>
+            <p><strong>Tên:</strong> Tô Anh Tuấn</p>
+            <p><strong>Ngày sinh:</strong> <time datetime="2007-04-30">30/04/2007</time></p>
+            <p>Là học sinh của <b>trường THPT Lê Quý Đôn</b></p>
+        </section>
+
+        <section id="poem" class="poem">
+            <h2>Một đoạn thơ mà tôi yêu thích</h2>
+            <p>
+                <em>... Unmatched perspicacity coupled with sheer indefatigability makes me a feared opponent in any realm of human endeavour.</em> -CobraTate- <br>
+                Dịch: Sự sáng suốt vượt trội cùng với sự không biết mệt mỏi tuyệt đối khiến tôi trở thành một đối thủ đáng sợ trong bất kỳ lĩnh vực nỗ lực nào của con người.
+            </p>
+        </section>
+
+        <section id="favorites" class="favorites">
+            <h2>Bảng điểm top 3 môn học yêu thích của tôi HK1</h2>
+            <p>Trang Web cung cấp tài liệu học tập tôi sử dụng: 
+                <a href="https://mr-school.xyz/" target="_blank" rel="noopener noreferrer">
+                    <i>TÀI LIỆU ĐẲNG CẤP</i>
+                </a>
+            </p>
+            <table class="brand-table">
+                <thead>
+                    <tr>
+                        <th scope="col">STT</th>
+                        <th scope="col">Môn học</th>
+                        <th scope="col">Điểm</th>
+                        <th scope="col">Độ yêu thích trên thang 100</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="https://youtu.be/IovHfqhj1Cc?si=9Sun-wJRgVIOLljd" target="_blank" rel="noopener noreferrer">TOÁN</a></td>
+                        <td>9.8</td>
+                        <td>90đ</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><a href="https://youtu.be/UDVtMYqUAyw?si=6pUrMNhdNt-wkKv1" target="_blank" rel="noopener noreferrer">LÝ</a></td>
+                        <td>9.7</td>
+                        <td>95đ</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><a href="https://youtu.be/iwncGYFPxmU?si=Dh8YjLGbwDgJ4mxD" target="_blank" rel="noopener noreferrer">TIN</a></td>
+                        <td>10</td>
+                        <td>102đ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="chess" class="chess">
+            <h2>Cờ vua tự chế (code cờ vua chơi được quá khó, thông cảm :3) </h2>
+            <h3>Luật chơi: cho vua của đối phương cùng hàng với vua quân mình </h3>
+            <p><em>Nhớ chơi "đúng luật" nhé!</em></p>
+            <div class="board">
+                <table class="chess-board" aria-label="Bàn cờ vua">
+                    <tbody>
+                        <tr>
+                            <td class="black" draggable="true">♖</td>
+                            <td class="white" draggable="true">♘</td>
+                            <td class="black" draggable="true">♗</td>
+                            <td class="white" draggable="true">♕</td>
+                            <td class="black" draggable="true">♔</td>
+                            <td class="white" draggable="true">♗</td>
+                            <td class="black" draggable="true">♘</td>
+                            <td class="white" draggable="true">♖</td>
+                        </tr>
+                        <tr>
+                            <td class="white" draggable="true">♙</td>
+                            <td class="black" draggable="true">♙</td>
+                            <td class="white" draggable="true">♙</td>
+                            <td class="black" draggable="true">♙</td>
+                            <td class="white" draggable="true">♙</td>
+                            <td class="black" draggable="true">♙</td>
+                            <td class="white" draggable="true">♙</td>
+                            <td class="black" draggable="true">♙</td>
+                        </tr>
+                        <tr>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                        </tr>
+                        <tr>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                        </tr>
+                        <tr>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                        </tr>
+                        <tr>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                            <td class="white"></td>
+                            <td class="black"></td>
+                        </tr>
+                        <tr>
+                            <td class="black" draggable="true">♟</td>
+                            <td class="white" draggable="true">♟</td>
+                            <td class="black" draggable="true">♟</td>
+                            <td class="white" draggable="true">♟</td>
+                            <td class="black" draggable="true">♟</td>
+                            <td class="white" draggable="true">♟</td>
+                            <td class="black" draggable="true">♟</td>
+                            <td class="white" draggable="true">♟</td>
+                        </tr>
+                        <tr>
+                            <td class="white" draggable="true">♜</td>
+                            <td class="black" draggable="true">♞</td>
+                            <td class="white" draggable="true">♝</td>
+                            <td class="black" draggable="true">♛</td>
+                            <td class="white" draggable="true">♚</td>
+                            <td class="black" draggable="true">♝</td>
+                            <td class="white" draggable="true">♞</td>
+                            <td class="black" draggable="true">♜</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Tô Anh Tuấn. All rights reserved.</p>
+        <p> <a href="https://github.com/TrainTuTu/WEB" target="_blank" rel="noopener noreferrer">
+            <i>GITHUB</i>
+        </p>
+        <button id="exitButton">Thoát trang</button>
+    </footer>
+
+    <!-- Thêm âm thanh -->
+    <audio id="leaveSound" src="leave-sound.mp3"></audio>
+
+    <!-- Liên kết file JavaScript -->
+    <script src="./java.js"></script>
+</body>
+</html>
